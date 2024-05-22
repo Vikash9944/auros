@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Staatliches", sans-serif;
+    overflow-x: hidden;
+}
+.head{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pht{
+    width: 150px;
+}
+.a1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.a2{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.a3{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h1:hover{
+    font-family:  "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: cadetblue;
+    transition: all;
+}
+.i1:hover{
+    color: rgb(223, 133, 69);
+    font-size: larger;
+}
+.b1{
+    width: 100%;
+    height: 20%;
+}
+.b2{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://demo2.wpopal.com/auros/wp-content/uploads/2018/10/breadcrumb.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.tag{
+    font-size: 13px;
+    gap: 10px;
+}
+.tag1{
+    font-size: 40px;
+}
+.full{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.left{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 20px;
+}   
+.left1{
+    width: 75%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: justify;
+    gap: 20px;
+
+}
+.left2{
+    width: 45%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 20px;
+}
+.left3{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 20px;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.img{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon1{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+}
+.hov{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 8%;
+    display: none;
+}
+.bt1{
+    width: 100%;
+    height: 80%;
+    color: white;
+    background-color: black;
+}
+.img:hover .hov{
+    display: block;
+}
+.just{
+    width: 100%;
+    height: 95%;
+}
+.last1{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+}
+.last2{
+    height: 30%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: first baseline;
+}
+.size{
+    width: 30%;
+    height: 10%;
+}
+.BB{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.end{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: first baseline;
+}
+.end1{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: first baseline;
+}
+.end2{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    gap: 20px;
+}
+.end-2{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+input{
+    background: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.z1:hover{
+    transition: 0.5s all;
+    color: chocolate;
+}
+.trk1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.trk2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.trk3{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.z2{
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+.z2:hover{
+    color: chocolate;
+    transform: scale(104%);
+}

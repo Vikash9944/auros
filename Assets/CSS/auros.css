@@ -1,0 +1,1192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Kanit", sans-serif;
+    overflow-x: hidden;
+}
+
+.parentNav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parentNav img{
+    height: 80%;
+    width:25%;
+}
+.space{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    
+}
+.child{
+    width: 80px;
+    height: 130px;
+    position: absolute;
+    top: 40px;
+    left: 18%;
+    display: none;
+    background-color: #ffffff;
+    font-family: "Merriweather", serif;
+}
+
+.homeList:hover .child{
+    display: block; 
+}
+.menu1{
+    width: 78%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+.menu{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.cartIcons{
+    /* background-color: black; */
+        width: 50%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        /* position: relative; */
+        /* flex-direction: column; */
+}
+
+.cart1{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.loginPage{
+    width: 30%;
+    height:400px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    right: 7%;    
+    top: 10%;
+    /* bottom: 50px; */
+    gap:10px;
+    /* opacity: 0; */
+    position: absolute;
+    /* display: none;     */
+}
+.sign{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid black;
+    /* text-transform: uppercase; */
+    /* background-color: aquamarine; */
+    font-family: "Kanit", sans-serif;
+    
+}
+.userDetalis{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+    /* background-color: aliceblue; */
+}
+.login{
+    width: 90%;
+    /* height: 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: start; */
+    gap: 10px;
+    /* color: chocolate; */
+    /* background-color: burlywood; */
+
+}
+.input1{
+    width: 80%;
+    height: 40px;
+    background-color: #292323;
+    padding: 0px 10px;
+    line-height: 30px;
+    /* border-radius: 10px; */
+    border: none;
+    margin-bottom: 20px;
+    background: rgba(87, 81, 81, 0.3);
+    text-transform: uppercase;
+    
+}
+.btnLOG{
+    height: 40px;
+    line-height: 40px;
+    /* border-radius: 20px; */
+    border: none;
+    margin: 10px 0px;
+    /* box-shadow: 0px 0px 5px rgba(0,0,0,0.3); */
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    background-color: chocolate;
+    
+}
+
+.acc{
+    height: 19px;
+    color: rgb(220, 124, 55);
+    font-weight: 400;
+    font-size: 17px;
+   
+}
+
+/* .acc:hover{
+    border-bottom: 2px solid chocolate;
+
+} */
+.zin:hover .loginPage{
+    /* display: block; */
+    opacity: 1;
+ }
+
+.btnLOG:hover{
+    background-color: rgb(181, 95, 33);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-content{
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+.right-content{
+    width: 50%;
+    display: flex;
+   justify-content: flex-end;
+  
+}
+.home1{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home2{
+    width: 40%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.home3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+.home4{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img1{
+    width: 150px;
+}
+ .h1:hover{
+    font-family:  "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: cadetblue;
+    transition: all;
+}
+.i1:hover{
+    color: rgb(234, 37, 37);
+    font-weight: 600px;
+    font-size: larger; 
+    transition: all s;
+}
+.image{
+    background-image: url(../Images/home1_layer5.png);
+    width: 100vw;
+    height: 80vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #D0E8E4;
+}
+.image2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Words{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.l1{
+    font-size: 15px;
+    font-weight:lighter
+}
+.d1{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.d2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.h5{
+    font-weight: 900px;
+    font-size: 50px;
+}
+.h6{
+    font-weight: lighter;
+}
+.s1{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.bot1{
+    width: 150px;
+    height: 50px;
+    transition: 0.5s all;
+    background: none;
+}
+.bot1:hover{
+    border: black;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+}
+.d3{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.l2{
+    font-weight: bolder;
+}
+.l3{
+    font-weight: lighter;
+}
+.pic1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pic2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.c1{
+    width: 50%;
+}
+.c2{
+    width: 50%;
+}
+.c1:hover{
+    transition: 0.2s all;
+    transform: scale(110%);
+}
+.c2:hover{
+    transition: 0.2s all;
+    transform: scale(110%);
+}
+ .c1-2{
+    position: absolute;
+    left: 9%;
+    right: 0;
+    top: 65%;
+    bottom: 0;
+}
+.tol1{
+    font-size: 35px;
+}
+.tol{
+    font-size: 15px;
+    font-weight: 50;
+}
+.c1-3{
+    position: absolute;
+    left: 55%;
+    right: 0;
+    top: 65%;
+    bottom: 0;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.head2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-weight: lighter;
+}
+.photo1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pto1{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+.pto2{
+    position: absolute;
+    top: 84%;
+    left: 5%;
+    width: 100%;
+    height: 20%;
+}
+.bt1{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+.icon1{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+.hov{
+    position: absolute;
+    top: 84%;
+    left: 5%;
+    width: 100%;
+    height: 20%;
+    display: none;
+}
+.photo2{
+    position: relative;
+    width: 25%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:column;  
+    gap: 10px;
+}
+.photo2:hover .hov{
+    display: block;
+}
+
+.photo3{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+}
+hr{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+.se1:hover{
+    font-size: 18px;
+    font-weight: bolder;
+    color: chocolate;
+    transition: 0.5s all;
+    transform: scale(105%);
+}
+.im1{
+    width: 90%;
+    height: 100%;
+}
+/* .im1:hover{
+    transition: 0.5s all;
+    transform: scale(105%);
+} */
+h3{
+    font-size: 20px;
+    font-weight: 50px;
+}
+span{
+    size: 20px;
+    font-weight: lighter;
+}
+h3:hover{
+    color: chocolate;
+    transition: 0.5s all;
+    transform: scale(105%);
+}
+.in1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.in2{
+    width: 90%;
+    height: 70%;
+    display: flex;
+}
+.in2-1{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+.n1{
+    width: 100%;
+}
+.p1:hover{
+    font-family: "Playfair Display", serif;
+    color: chocolate;
+    transition: 0.5s all;
+    font-size: 18px;
+}
+.in3-1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.in4{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.con1{
+    position: absolute;
+    right: 9%;
+    top: 8%;
+}
+.con2{
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    height: 20%;
+    display: none;
+}
+.bt2{
+    width: 100%;
+    height: 80%;
+    color: white;
+    background-color: black;
+}
+.itm1:hover .con2{
+    display: block;
+}
+.su1{
+    height: 90%;
+    width: 80%;
+    object-fit: cover;
+    }
+.in5{
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.itm1{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.su2{
+    width: 100%;
+    height: 80%;
+}
+.su2:hover{
+    transition: 0.5s all;
+    transform: scale(105%);
+}
+.su1:hover{
+    transition: 0.5s all;
+    transform: scale(105%);
+}
+.no1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.no2{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+.su3{
+    width: 100%;
+    height: 100%;
+}
+.no3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.su4{
+    width: 100%;
+    height: 100%;
+}
+.su4:hover{
+    transition: 0.5s all;
+    transform: scale(105%);
+}
+.p1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.piv1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.piv2{
+    width: 80%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    gap: 30px;
+}
+.piv3{
+    width: 100%;
+}
+.piv3:hover{
+    transition: all;
+    transform: skew(-5deg);
+}
+.but{
+    width: 100px;
+    background: none;
+    transition: 0.5s all;
+    border: none; 
+    font-size: 18px;
+}
+.but:hover{
+    color: white;
+    background-color: chocolate;
+}
+.j1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.j2{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #FFD8D4;
+}
+.s1{
+    font-size: 30px;
+}
+.s2{
+    font-family: "Crimson Text", serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+}
+.s3{
+    font-weight: 200px;
+    font-family: "Crimson Text", serif;
+}
+.last1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.last2{
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: first baseline;
+}
+.size{
+    width: 30%;
+    height: 10%;
+}
+.BB{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.end{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: first baseline;
+}
+.end1{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: first baseline;
+}
+.end2{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    gap: 20px;
+}
+.end-2{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+input{
+    background: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.z1:hover{
+    transition: 0.5s all;
+    color: chocolate;
+}
+.trk1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.trk2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.trk3{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.z2{
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+.z2:hover{
+    color: chocolate;
+    transform: scale(104%);
+}
+.icn2{
+    display: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:1200px){
+    .home3{
+        display: none;
+    }
+    .home2{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .right-content{
+        width: 35%;
+    }
+    .home4{
+        width: 40%;
+    }
+    .left-content {
+        width: 55%;
+    }
+    .Words {
+        width: 80%;
+    }    
+    .l1{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .image{
+        width: 140%;
+    }
+    .image2{
+        width: 40%;
+    }
+    .c1{
+        height: 42%;
+        width: 100%;
+    }
+    .c2{
+        width: 42%;
+        width: 100%;
+    }
+    .c1-2{
+        position: absolute;
+        left: 12%;
+        right: 0;
+        top: 35%;
+        bottom: 0;
+    }    
+    .c1-3{
+        position: absolute;
+        left: 12%;
+        right: 0;
+        top: 75%;
+        bottom: 0;
+    }    
+    .pic2{
+        height: 70%;
+        flex-direction: column;
+    }
+    .head2{
+        gap: 30px;
+    }
+    .ve1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .im1 {
+        width: 90%;
+        height: 55%;
+    }
+    .photo2{
+        justify-content: center;
+        gap: 20px;
+    }
+    .photo1{
+        height: 70%;
+    }
+    .in2{
+        align-items: center;
+    }
+    .n1{
+        width: 70%;
+    }
+    .p1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .su1 {
+        height: 70%;
+        width: 100%;
+    }   
+    .su2{
+        height: 95%;
+        width: 120%;
+        gap: 30px;
+    }
+    .in5{
+        height: 88%;
+        width: 100%;
+        gap: 80px;
+    } 
+    .in4{
+        height: 45%;
+        width: 85%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .in3{
+        flex-direction: column;
+        height: 140%;
+    }
+    .itm1 {
+        width: 100%;
+    }   
+    .no3{
+        height: 55%;
+    }
+    .no2{
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+    }
+    .su4{
+        width: 100%;
+        height: 70%;
+    }
+    .su3 {
+        width: 100%;
+        height: 50%;
+    }
+    .vi2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .piv1 {
+        height: 40%;
+    }    
+    p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .j2 {
+        width: 95%;
+        height: 25%;
+    }   
+    .s1 {
+        font-size: 25px;
+    }    
+    .trk4{
+        width: 85%;
+    }
+    .trk3 {
+        width: 45%;
+    }    
+    
+
+
+
+    @media(max-width:600px){
+        .home3{
+            display: none;
+        }
+        .home2{
+            width: 100%;
+            justify-content: space-between;
+        }
+        .right-content{
+            width: 35%;
+        }
+        .home4{
+            width: 70%;
+        }
+        .left-content {
+            width: 65%;
+        }
+        .Words {
+            width: 80%;
+        }    
+        .l1{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        .image{
+            width: 250%;
+        }
+        .image2 {
+            width: 40%;
+        }    
+
+        .c1{
+            width: 100%;
+        }
+        .c2{
+            width: 100%;
+        }
+        .pic2{
+            flex-direction: column;
+        }
+        .c1-2{
+            position: absolute;
+            left: 12%;
+            right: 0;
+            top: 38%;
+            bottom: 0;
+        }    
+        .tol1{
+            font-size: 25px;
+        }
+        .c1-3{
+            position: absolute;
+            left: 12%;
+            right: 0;
+            top: 73%;
+            bottom: 0;
+        }    
+        .head2{
+            gap: 30px;
+        }
+        .ve{
+            width: 69%;
+            font-size: 29px;
+        }
+        .ve1{
+            width: 90%;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .im1 {
+            width: 90%;
+            height: 65%;
+        }
+        .photo2{
+            width: 90%;
+            height: 75%;
+            justify-content: center;
+            gap: 20px;
+        }
+        .photo1{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+        }
+        .in2{
+            align-items: center;
+            width: 95%;
+        }
+        .in2-1{
+            width: 70%;
+            font-size: 10px;
+        }
+        .n1{
+            width: 50%;
+            font-size: 20px;
+        }
+        .p1{
+            font-size: 10px;
+            font-weight: 600;
+            gap: 10px;
+        }
+        .su1 {
+            height: 70%;
+            width: 100%;
+        }   
+        .su2{
+            height: 95%;
+            width: 120%;
+            gap: 30px;
+        }
+        .in3-1 {
+            width: 100%;
+        }    
+        .in5{
+            height: 88%;
+            width: 100%;
+            gap: 55px;
+        } 
+        .in4{
+            height: 45%;
+            width: 85%;
+            justify-content: center;
+            gap: 20px;
+        }
+        .in3{
+            flex-direction: column;
+           height: 140%;
+        }
+        h3{
+            font-size: 15px;
+        }
+        .itm1 {
+            width: 100%;
+        }  
+        .no3{   
+            flex-direction: column;
+        }
+        .su4{
+            width: 100%;
+            height: 80%;
+        }
+        .su3 {
+            width: 100%;
+            height: 50%;
+        }
+        .p2 {
+            width: 82%;
+        }    
+        .vi2{
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .piv1{
+            height: 100%;
+            flex-direction: column;
+        }
+        .piv2 {
+            width: 65%;
+            height: 50%;
+            gap: 10px;
+        }    
+        .piv3 {
+            width: 100%;
+        }
+        p {
+            font-size: 10px;
+            line-height: 20px;
+        }
+        h3 {
+            font-size: 10px;
+        }
+        .j1{
+            height: 61%;
+        }
+        .j2 {
+            width: 95%;
+            height: 25%;
+        }   
+        .s1 {
+            font-size: 11px;
+        }
+        .s2 {
+            font-weight: 400;
+            font-size: 15px;
+        }
+        .size {
+            width: 75%;
+        }    
+        .last2 {
+            gap: 25px;
+        }    
+        .last1{
+            height: 45%;
+        }
+        .end-2{
+
+            width: 78%;
+            flex-direction: column;
+        }
+        .end1{
+            width: 35%;
+            gap: 30px;
+        }
+        .end2{
+            gap: 15px;
+        }
+        .trk4{
+            width: 85%;
+        }
+        .trk3 {
+            width: 35%;
+        }    
+        .tk{
+            font-size: 10px;
+        }
+    }}  
