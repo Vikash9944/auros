@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Kanit", sans-serif;
+    overflow-x: hidden;
+}
+
+.parentNav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parentNav img{
+    height: 80%;
+    width:20%;
+}
+.space{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    
+}
+
+.menu1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+    /* position: relative; */
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartIcons{
+    /* background-color: black; */
+        width: 10%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* position: relative; */
+        /* flex-direction: column; */
+}
+
+
+.h1{
+    color: black;
+}
+
+.h1:hover{
+    font-family:  "Anta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: cadetblue;
+    transition: all ;
+}
+
+.i1{
+    color: black;
+}
+.i1:hover{
+    color: rgb(234, 37, 37);
+    transition: all ;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.fulDiv{
+    background-image: url(../Images/home1_layer5.png);
+    width: 100vw;
+    height: 85vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    /* overflow: unset; */
+    background-color: #D0E8E4;
+    align-items: center;
+    display: flex;
+    
+}
+.ful1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    
+}
+
+
+.signUp{
+    width: 20%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+.pasWrd{
+    width: 20%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.head{
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+    font-weight: 400; 
+}
+
+
+.inPut{
+    width: 70%;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+    line-height: 10px;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 400; 
+    font-family: "Playfair Display", serif;
+    /* background: gray; */
+    background-color: whitesmoke;
+    color: black;
+}
+
+.BtnUp{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.btn{
+    width: 35%;
+    height: 50%;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 400; 
+    font-family: "Playfair Display", serif;
+    background: black;
+    color: white;
+}
+
+.btn:hover{
+    background: scroll;
+    background-color: rgba(174, 172, 172, 0.493);
+    color: black;
+}
